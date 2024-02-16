@@ -1,4 +1,4 @@
-package LinkedList;
+package EstructurasDatos.Lineales.LinkedList;
 
 public class LinkedList<E>
 {
