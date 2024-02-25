@@ -1,4 +1,6 @@
-package EstructurasDatos.Lineales.LinkedList;
+package EstructurasDeDatos.Lineales.LinkedList;
+
+import EstructurasDeDatos.Lineales.LinkedList.ElementoLinkedList;
 
 public class LinkedList<E>
 {

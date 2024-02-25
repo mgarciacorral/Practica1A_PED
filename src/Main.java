@@ -1,4 +1,4 @@
-import EstructurasDatos.Lineales.LinkedList.LinkedList;
+import EstructurasDeDatos.Lineales.LinkedList.LinkedList;
 
 public class Main {
     public static void main(String[] args)
