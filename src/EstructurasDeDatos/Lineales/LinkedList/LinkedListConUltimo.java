@@ -1,4 +1,4 @@
-package EstructurasDatos.Lineales.LinkedList;
+package EstructurasDeDatos.Lineales.LinkedList;
 
 import EstructurasDatos.Modelos.LEGConUltimo;
 
