@@ -30,4 +30,27 @@ public class ElementoLinkedList<E>
     {
         this.siguiente = siguiente;
     }
+
+    public String toStringRecursivo()
+    {
+        String res = "";
+        res = this.elemento.toString() + " ";
+        if (this.siguiente != null)
+        {
+            this.siguiente.toStringRecursivo();
+        }
+
+        return res;
+    }
+
+    public String toStringInversoRecursivo(String in)
+    {
+        String res = this.toString()+ " " + in;
+        if (this.siguiente != null)
+        {
+            res = this.siguiente.toStringInversoRecursivo(res);
+        }
+
+        return res;
+    }
 }

@@ -7,12 +7,12 @@ public class Main {
 
         for(int i = 0; i < 10; i++)
         {
-            lista.add(new Vehiculo("Volskwagen", 2000 + i));
+            lista.append(new Vehiculo("Volskwagen", 2000 + i));
         }
 
-        lista.printList();
+        lista.toString();
         lista.remove(5);
-        lista.printList();
+        lista.toString();
         System.out.println("Elemento en la posicion 5: " + lista.get(5));
     }
 }

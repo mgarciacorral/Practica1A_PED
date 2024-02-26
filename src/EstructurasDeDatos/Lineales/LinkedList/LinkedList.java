@@ -4,8 +4,8 @@ import EstructurasDeDatos.Lineales.LinkedList.ElementoLinkedList;
 
 public class LinkedList<E>
 {
-    private ElementoLinkedList<E> head;
-    private int size;
+    protected ElementoLinkedList<E> head;
+    protected int size;
 
     public LinkedList()
     {
@@ -14,6 +14,14 @@ public class LinkedList<E>
     }
 
     public void add(E elemento)
+    {
+        ElementoLinkedList<E> nuevo = new ElementoLinkedList<E>(elemento);
+        nuevo.setSiguiente(head.getSiguiente());
+        head.setSiguiente(nuevo);
+        size++;
+    }
+
+    public void append(E elemento)
     {
         ElementoLinkedList<E> nuevo = new ElementoLinkedList<E>(elemento);
         ElementoLinkedList<E> actual = head;
@@ -32,7 +40,7 @@ public class LinkedList<E>
 
     public E get(int index)
     {
-        if (index <= 0)
+        if (index <= 0 || index >= size)
         {
             return null;
         }
@@ -68,14 +76,36 @@ public class LinkedList<E>
         return true;
     }
 
-    public void printList()
+    public void toStringIterativo()
     {
         ElementoLinkedList<E> actual = head.getSiguiente();
         while (actual != null)
         {
-            System.out.println(actual.getElemento() + " ");
+            System.out.print(actual.getElemento() + " ");
             actual = actual.getSiguiente();
         }
+    }
+
+    public void toStringRecursivo()
+    {
+        head.toStringRecursivo();
+    }
+
+    public void toStringInversoIterativo()
+    {
+        String resultado = "";
+        ElementoLinkedList<E> actual = head.getSiguiente();
+        while (actual != null)
+        {
+            resultado = actual.getElemento() + " " + resultado;
+            actual = actual.getSiguiente();
+        }
+        System.out.println(resultado);
+    }
+
+    public void toStringInversoRecursivo()
+    {
+        System.out.println(head.toStringInversoRecursivo(""));
     }
 
     public boolean contains(E elemento)
