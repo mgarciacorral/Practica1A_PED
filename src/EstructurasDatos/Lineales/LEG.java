@@ -61,7 +61,7 @@ public class LEG<E>
             return false;
         }
         NodoLEG<E> actual = head;
-        for (int i = 1; i < index; i++)
+        for (int i = 0; i < index; i++)
         {
             if (actual.getSiguiente() == null)
             {
@@ -82,11 +82,13 @@ public class LEG<E>
             System.out.print(actual.getElemento() + " ");
             actual = actual.getSiguiente();
         }
+        System.out.println();
     }
 
     public void toStringRecursivo()
     {
         head.toStringRecursivo();
+        System.out.println();
     }
 
     public void toStringInversoIterativo()

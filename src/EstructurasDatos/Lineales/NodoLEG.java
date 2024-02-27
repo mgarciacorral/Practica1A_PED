@@ -31,21 +31,25 @@ public class NodoLEG<E>
         this.siguiente = siguiente;
     }
 
-    public String toStringRecursivo()
+    public void toStringRecursivo()
     {
-        String res = "";
-        res = this.elemento.toString() + " ";
+        if(this.elemento != null)
+        {
+            System.out.print(this.elemento + " ");
+        }
         if (this.siguiente != null)
         {
             this.siguiente.toStringRecursivo();
         }
-
-        return res;
     }
 
     public String toStringInversoRecursivo(String in)
     {
-        String res = this.toString()+ " " + in;
+        String res = "";
+        if(this.elemento != null)
+        {
+            res = this.elemento + " " + in;
+        }
         if (this.siguiente != null)
         {
             res = this.siguiente.toStringInversoRecursivo(res);

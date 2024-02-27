@@ -33,12 +33,12 @@ public class Menu{
     public static void pulsaIntro(){
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Pulse una tecla para continuar...");
+        System.out.println("Pulse enter para continuar...");
         scanner.nextLine();
         scanner.close();
     }
 
-    public static void añadirElementos(E elemento){
+    /*public static void añadirElementos(E elemento){
 
         System.out.println("\tAÑADIR ELEMENTOS A LA LISTA");
         System.out.println("Introduzca claves (-1 para terminar):");
@@ -49,5 +49,5 @@ public class Menu{
             lista.append(clave);
             clave = scanner.nextInt();
         }
-    }
+    }*/
 }

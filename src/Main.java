@@ -10,9 +10,11 @@ public class Main {
             lista.append(i);
         }
 
-        lista.toStringInversoRecursivo();
+        lista.toStringIterativo();
         lista.remove(0);
         lista.toStringInversoIterativo();
+        lista.toStringRecursivo();
+        lista.toStringInversoRecursivo();
         System.out.println("Elemento en la posicion 5: " + lista.get(5));
     }
 }

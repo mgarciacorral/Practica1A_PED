@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="559c1348-a9b6-419a-9517-194b72cc8efe" name="Changes" comment="prueba git">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="559c1348-a9b6-419a-9517-194b72cc8efe" name="Changes" comment="preparacion para practica, solo queda menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EstucturasDeDatos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practica1A_PED.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/LEG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/LEG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/LEGConUltimoEC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/LEGConUltimoEC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/NodoLEG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/NodoLEG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehiculo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -40,21 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/usuario/IdeaProjects/Practica1A_PED",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/usuario/IdeaProjects/EstucturasDeDatos/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/usuario/IdeaProjects/Practica1A_PED&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/usuario/IdeaProjects/EstucturasDeDatos/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,6 +68,8 @@
       <workItem from="1709032797290" duration="326000" />
       <workItem from="1709035570566" duration="11000" />
       <workItem from="1709035778140" duration="53000" />
+      <workItem from="1709035988473" duration="282000" />
+      <workItem from="1709036307243" duration="1051000" />
     </task>
     <task id="LOCAL-00001" summary="LinkedList añadida">
       <option name="closed" value="true" />
@@ -105,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708977107253</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="preparacion para practica, solo queda menu">
+      <option name="closed" value="true" />
+      <created>1709036148107</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709036148107</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +132,7 @@
     <MESSAGE value="LinkedList añadida" />
     <MESSAGE value="LinkedListConUltimo implementada con metodos toString de 4 tipos" />
     <MESSAGE value="arreglillo" />
-    <option name="LAST_COMMIT_MESSAGE" value="arreglillo" />
+    <MESSAGE value="preparacion para practica, solo queda menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="preparacion para practica, solo queda menu" />
   </component>
 </project>
