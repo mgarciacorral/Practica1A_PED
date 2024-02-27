@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="559c1348-a9b6-419a-9517-194b72cc8efe" name="Changes" comment="preparacion para practica, solo queda menu">
+    <list default="true" id="559c1348-a9b6-419a-9517-194b72cc8efe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/LEG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/LEG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/NodoLEG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/NodoLEG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +65,8 @@
       <workItem from="1709035570566" duration="11000" />
       <workItem from="1709035778140" duration="53000" />
       <workItem from="1709035988473" duration="282000" />
-      <workItem from="1709036307243" duration="1051000" />
+      <workItem from="1709036307243" duration="1373000" />
+      <workItem from="1709046399955" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="LinkedList añadida">
       <option name="closed" value="true" />
@@ -111,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709036148107</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="todos los toString arreglados y funcionando">
+      <option name="closed" value="true" />
+      <created>1709037768646</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709037768646</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +138,7 @@
     <MESSAGE value="LinkedListConUltimo implementada con metodos toString de 4 tipos" />
     <MESSAGE value="arreglillo" />
     <MESSAGE value="preparacion para practica, solo queda menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="preparacion para practica, solo queda menu" />
+    <MESSAGE value="todos los toString arreglados y funcionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="todos los toString arreglados y funcionando" />
   </component>
 </project>
