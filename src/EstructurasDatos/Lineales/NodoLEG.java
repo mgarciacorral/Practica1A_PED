@@ -1,11 +1,11 @@
-package EstructurasDeDatos.Lineales.LinkedList;
+package EstructurasDatos.Lineales;
 
-public class ElementoLinkedList<E>
+public class NodoLEG<E>
 {
-    private ElementoLinkedList<E> siguiente;
+    private NodoLEG<E> siguiente;
     private E elemento;
 
-    public ElementoLinkedList(E elemento)
+    public NodoLEG(E elemento)
     {
         this.elemento = elemento;
         this.siguiente = null;
@@ -21,12 +21,12 @@ public class ElementoLinkedList<E>
         this.elemento = elemento;
     }
 
-    public ElementoLinkedList<E> getSiguiente()
+    public NodoLEG<E> getSiguiente()
     {
         return siguiente;
     }
 
-    public void setSiguiente(ElementoLinkedList<E> siguiente)
+    public void setSiguiente(NodoLEG<E> siguiente)
     {
         this.siguiente = siguiente;
     }

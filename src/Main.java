@@ -1,9 +1,9 @@
-import EstructurasDeDatos.Lineales.LinkedList.LinkedList;
+import EstructurasDatos.Lineales.LEG;
 
 public class Main {
     public static void main(String[] args)
     {
-        LinkedList<Vehiculo> lista = new LinkedList<Vehiculo>();
+        LEG<Vehiculo> lista = new LEG<Vehiculo>();
 
         for(int i = 0; i < 10; i++)
         {

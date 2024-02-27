@@ -1,21 +1,19 @@
-package EstructurasDeDatos.Lineales.LinkedList;
+package EstructurasDatos.Lineales;
 
-import EstructurasDeDatos.Lineales.LinkedList.ElementoLinkedList;
-
-public class LinkedList<E>
+public class LEG<E>
 {
-    protected ElementoLinkedList<E> head;
+    protected NodoLEG<E> head;
     protected int size;
 
-    public LinkedList()
+    public LEG()
     {
-        this.head = new ElementoLinkedList<E>(null);
+        this.head = new NodoLEG<E>(null);
         this.size = 0;
     }
 
     public void add(E elemento)
     {
-        ElementoLinkedList<E> nuevo = new ElementoLinkedList<E>(elemento);
+        NodoLEG<E> nuevo = new NodoLEG<E>(elemento);
         nuevo.setSiguiente(head.getSiguiente());
         head.setSiguiente(nuevo);
         size++;
@@ -23,8 +21,8 @@ public class LinkedList<E>
 
     public void append(E elemento)
     {
-        ElementoLinkedList<E> nuevo = new ElementoLinkedList<E>(elemento);
-        ElementoLinkedList<E> actual = head;
+        NodoLEG<E> nuevo = new NodoLEG<E>(elemento);
+        NodoLEG<E> actual = head;
         while (actual.getSiguiente() != null)
         {
             actual = actual.getSiguiente();
@@ -44,7 +42,7 @@ public class LinkedList<E>
         {
             return null;
         }
-        ElementoLinkedList<E> actual = head.getSiguiente();
+        NodoLEG<E> actual = head.getSiguiente();
         for (int i = 1; i < index; i++)
         {
             if (actual.getSiguiente() == null)
@@ -62,7 +60,7 @@ public class LinkedList<E>
         {
             return false;
         }
-        ElementoLinkedList<E> actual = head;
+        NodoLEG<E> actual = head;
         for (int i = 1; i < index; i++)
         {
             if (actual.getSiguiente() == null)
@@ -78,7 +76,7 @@ public class LinkedList<E>
 
     public void toStringIterativo()
     {
-        ElementoLinkedList<E> actual = head.getSiguiente();
+        NodoLEG<E> actual = head.getSiguiente();
         while (actual != null)
         {
             System.out.print(actual.getElemento() + " ");
@@ -94,7 +92,7 @@ public class LinkedList<E>
     public void toStringInversoIterativo()
     {
         String resultado = "";
-        ElementoLinkedList<E> actual = head.getSiguiente();
+        NodoLEG<E> actual = head.getSiguiente();
         while (actual != null)
         {
             resultado = actual.getElemento() + " " + resultado;
@@ -110,7 +108,7 @@ public class LinkedList<E>
 
     public boolean contains(E elemento)
     {
-        ElementoLinkedList<E> actual = head.getSiguiente();
+        NodoLEG<E> actual = head.getSiguiente();
         while (actual != null)
         {
             if (actual.getElemento().equals(elemento))

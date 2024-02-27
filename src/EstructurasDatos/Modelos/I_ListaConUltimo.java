@@ -1,6 +1,6 @@
 package EstructurasDatos.Modelos;
 
-public interface LEGConUltimo<E>
+public interface I_ListaConUltimo<E>
 {
     public void append(E elemento);
     public E get(int index);

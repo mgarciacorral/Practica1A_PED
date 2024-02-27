@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="559c1348-a9b6-419a-9517-194b72cc8efe" name="Changes" comment="LinkedListConUltimo implementada con metodos toString de 4 tipos">
+    <list default="true" id="559c1348-a9b6-419a-9517-194b72cc8efe" name="Changes" comment="arreglillo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +60,8 @@
       <workItem from="1708442346759" duration="72000" />
       <workItem from="1708967893250" duration="130000" />
       <workItem from="1708973086706" duration="3769000" />
+      <workItem from="1708976954539" duration="190000" />
+      <workItem from="1709032797290" duration="326000" />
     </task>
     <task id="LOCAL-00001" summary="LinkedList añadida">
       <option name="closed" value="true" />
@@ -85,7 +87,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708976629288</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="arreglillo">
+      <option name="closed" value="true" />
+      <created>1708977107253</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708977107253</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LinkedList añadida" />
     <MESSAGE value="LinkedListConUltimo implementada con metodos toString de 4 tipos" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedListConUltimo implementada con metodos toString de 4 tipos" />
+    <MESSAGE value="arreglillo" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglillo" />
   </component>
 </project>
