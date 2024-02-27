@@ -45,23 +45,29 @@ public class LEG<E>
         return actual.getElemento();
     }
 
-    public boolean remove(int index)
+    public void remove(int index)
     {
         if (index < 0 )
         {
-            return false;
+            return;
         }
         NodoLEG<E> actual = head;
         for (int i = 0; i < index; i++)
         {
             if (actual.getSiguiente() == null)
             {
-                return false;
+                return;
             }
             actual = actual.getSiguiente();
         }
-        actual.setSiguiente(actual.getSiguiente().getSiguiente());
-        return true;
+        if(actual.getSiguiente().getSiguiente() != null)
+        {
+            actual.setSiguiente(actual.getSiguiente().getSiguiente());
+        }
+        else
+        {
+            actual.setSiguiente(null);
+        }
     }
 
     public void toStringIterativo()

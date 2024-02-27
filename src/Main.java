@@ -1,11 +1,12 @@
 import EstructurasDatos.Lineales.LEG;
+import EstructurasDatos.Lineales.LEGConUltimo;
 
 public class Main {
     public static void main(String[] args)
     {
-        LEG<Integer> lista = new LEG<Integer>();
+        LEGConUltimo<Integer> lista = new LEGConUltimo<>();
 
-        for(int i = 0; i < 10; i++)
+        for(int i = 0; i < 1; i++)
         {
             lista.append(i);
         }
