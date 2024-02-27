@@ -56,7 +56,7 @@ public class LEG<E>
 
     public boolean remove(int index)
     {
-        if (index < 1 || index > size)
+        if (index < 0 || index > size)
         {
             return false;
         }
