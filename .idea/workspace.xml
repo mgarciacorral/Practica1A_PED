@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="559c1348-a9b6-419a-9517-194b72cc8efe" name="Changes" comment="arreglillo">
+    <list default="true" id="559c1348-a9b6-419a-9517-194b72cc8efe" name="Changes" comment="reestructura ion de paquetes y nombres">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EstructurasDatos/Modelos/LEGConUltimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EstructurasDatos/Modelos/I_ListaConUltimo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EstructurasDeDatos/Lineales/LinkedList/ElementoLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/NodoLEG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EstructurasDeDatos/Lineales/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/LEG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EstructurasDeDatos/Lineales/LinkedList/LinkedListConUltimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/LEGConUltimo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +66,7 @@
       <workItem from="1708967893250" duration="130000" />
       <workItem from="1708973086706" duration="3769000" />
       <workItem from="1708976954539" duration="190000" />
-      <workItem from="1709032797290" duration="326000" />
+      <workItem from="1709032797290" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="LinkedList añadida">
       <option name="closed" value="true" />
@@ -95,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708977107253</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="reestructura ion de paquetes y nombres">
+      <option name="closed" value="true" />
+      <created>1709033428912</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709033428912</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +129,7 @@
     <MESSAGE value="LinkedList añadida" />
     <MESSAGE value="LinkedListConUltimo implementada con metodos toString de 4 tipos" />
     <MESSAGE value="arreglillo" />
-    <option name="LAST_COMMIT_MESSAGE" value="arreglillo" />
+    <MESSAGE value="reestructura ion de paquetes y nombres" />
+    <option name="LAST_COMMIT_MESSAGE" value="reestructura ion de paquetes y nombres" />
   </component>
 </project>
