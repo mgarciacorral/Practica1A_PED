@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="559c1348-a9b6-419a-9517-194b72cc8efe" name="Changes" comment="talla quitada">
+    <list default="true" id="559c1348-a9b6-419a-9517-194b72cc8efe" name="Changes" comment="arreglao">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/LEG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/LEG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/LEGConUltimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EstructurasDatos/Lineales/LEGConUltimo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EstructurasDatos/Modelos/I_ListaConUltimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EstructurasDatos/Modelos/I_ListaConUltimo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +69,8 @@
       <workItem from="1709046399955" duration="17000" />
       <workItem from="1709046675423" duration="93000" />
       <workItem from="1709046986337" duration="36000" />
-      <workItem from="1709048345744" duration="1267000" />
+      <workItem from="1709048345744" duration="1564000" />
+      <workItem from="1709120458741" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="LinkedList añadida">
       <option name="closed" value="true" />
@@ -131,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709046747009</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="arreglao">
+      <option name="closed" value="true" />
+      <created>1709049934878</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709049934878</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +160,7 @@
     <MESSAGE value="preparacion para practica, solo queda menu" />
     <MESSAGE value="todos los toString arreglados y funcionando" />
     <MESSAGE value="talla quitada" />
-    <option name="LAST_COMMIT_MESSAGE" value="talla quitada" />
+    <MESSAGE value="arreglao" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglao" />
   </component>
 </project>
